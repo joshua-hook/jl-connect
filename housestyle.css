@@ -1,0 +1,177 @@
+* {
+    border: 1px solid black;
+    border: none;
+    font-family: sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* multi-use tools */
+/* ------------------------------------------------------------------------------- */
+
+h1 {
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card {
+    margin: 10px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.house-container {
+    background-color: rgb(194, 193, 193);
+    height: 100vh;
+    display: flex;
+}
+
+
+
+
+/* house-handover */
+/* ------------------------------------------------------------------------------- */
+
+.house-handover-wrapper {
+    width: 34%;
+}
+
+.house-handover {
+    height: 800px;
+}
+
+.house-handover-addbutton {
+    background: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 20px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    position:relative;
+    top: 15px;
+    right: 15px;
+    justify-self: end;
+}
+
+.house-handover-addbutton:hover {
+    color: black;
+    background: white;
+    border: 2px solid black;
+    transition-duration: 0.3s;
+}
+
+.house-handover-feed {
+    margin: 20px;
+    height: 720px;
+    overflow:auto;
+    margin-left: -20px;
+}
+
+.house-handover-item {
+    margin-bottom: 60px;
+}
+
+.house-handover-item-timestamp-grid {
+    display: grid;
+    grid-template-columns: 70px 150px;
+    width: 220px;
+}
+
+.house-handover-item-timestamp-grid-user {
+    grid-row: 1;
+}
+
+.house-handover-item-timestamp-grid-date {
+    grid-row: 2;
+}
+
+.house-handover-item-timestamp-grid-time {
+    grid-row: 3;
+}
+
+
+.question {
+    font-weight: 800;
+    grid-column: 1;
+}
+
+.answer {
+    grid-column: 2;
+}
+
+
+
+/*hello */
+/* ------------------------------------------------------------------------------- */
+.pws-wrapper {
+    width: 66%;
+}
+
+
+
+.pws-user {
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pws-user-photo {
+    height: 160px;
+    width: 160px;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+
+.pws-user-description {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.users-title {
+    border: 1px solid rgb(255, 255, 255);
+    height: 100px;
+    background-color: white;
+}
+
+
+.users-list {
+    border: 1px dashed red;
+    margin: 20px;
+    height: 650px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    overflow-y:scroll;
+}
+
+
+.user-card {
+    height: 700px;
+    padding: 20px;
+    display: grid;
+    background-color: white;
+    border: 1px solid purple;
+    margin: 20px 30px;
+    box-shadow: 5px 5px 5px rgb(218, 200, 216);
+    border-radius: 0.25rem;
+}
+
+.user-card-image {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+
+}
