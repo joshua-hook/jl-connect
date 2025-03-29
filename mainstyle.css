@@ -1,0 +1,73 @@
+.main-navbar-wrapper{
+    background-color: var(--main-color);
+    padding: 20px;
+}
+.main-navbar {
+    list-style-type: none; /*removes bullet points */
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.main-navbar li{
+    display: inline; /* Makes the display horizontal */
+}
+
+.main-navbar li a {
+    color: white;
+    font-family:"Arial";
+    font-weight: 600;
+    padding: 10px 20px;
+    text-decoration: none; /* removes the underline */
+    text-align: center; /*aligns the text*/
+}
+
+.main-navbar li :hover {
+    background-color: white;
+    color: var(--main-color);
+}
+
+.main-navbar li a :hover {
+    color: var(--main-color);
+}
+
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 195, 210);
+    padding: 50px;
+  }
+
+.user-card {
+    padding: 10px;
+    height: 180px;
+    width: 300px;  
+    background-color: grey;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.user-card-textbox {
+    padding: 5px;
+    width: 60%;
+    border: 1px solid red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.user-card-img {
+    border: 2px solid black;
+    width: 40%;
+}
+
+
+
+:root {
+    --main-color: rgb(70,55,85)
+}
+
